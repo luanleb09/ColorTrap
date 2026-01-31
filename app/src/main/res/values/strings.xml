@@ -1,0 +1,156 @@
+<!-- File: app/src/main/res/values/strings.xml -->
+<resources>
+    <!-- App Info -->
+    <string name="app_name">ColorTrap</string>
+    <string name="app_version">1.0.0</string>
+
+    <!-- Game Modes -->
+    <string name="mode_normal">Normal</string>
+    <string name="mode_hard">Hard</string>
+    <string name="mode_super_hard">Super Hard</string>
+    <string name="mode_relax">Relax</string>
+    <string name="mode_endless">Endless</string>
+    <string name="mode_daily">Daily Challenge</string>
+
+    <string name="mode_normal_desc">Balanced difficulty for most players</string>
+    <string name="mode_hard_desc">Challenging gameplay for experienced players</string>
+    <string name="mode_super_hard_desc">Extreme difficulty - Are you ready?</string>
+    <string name="mode_relax_desc">Take it easy - More time, multiple lives</string>
+    <string name="mode_endless_desc">How far can you go?</string>
+    <string name="mode_daily_desc">Complete today\'s unique challenge</string>
+
+    <!-- UI Labels -->
+    <string name="label_score">Score</string>
+    <string name="label_level">Level</string>
+    <string name="label_time">Time</string>
+    <string name="label_lives">Lives</string>
+    <string name="label_coins">Coins</string>
+    <string name="label_best">Best</string>
+    <string name="label_combo">Combo</string>
+
+    <!-- Buttons -->
+    <string name="btn_play">Play</string>
+    <string name="btn_retry">Retry</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_quit">Quit</string>
+    <string name="btn_shop">Shop</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_buy">Buy</string>
+    <string name="btn_claim">Claim</string>
+    <string name="btn_watch_ad">Watch Ad</string>
+    <string name="btn_no_thanks">No Thanks</string>
+
+    <!-- Instructions -->
+    <string name="instruction_main">❌ DON\'T TAP THESE</string>
+    <string name="instruction_tap_different">Tap the different color!</string>
+    <string name="instruction_tap_safe">Tap a safe color</string>
+    <string name="instruction_hurry">Hurry up!</string>
+
+    <!-- Messages -->
+    <string name="msg_game_over">GAME OVER</string>
+    <string name="msg_level_complete">Level Complete!</string>
+    <string name="msg_new_high_score">🎉 New High Score!</string>
+    <string name="msg_time_running_out">⏰ Time Running Out!</string>
+    <string name="msg_lost_life">Lost 1 life!</string>
+    <string name="msg_last_life">⚠️ Last life!</string>
+
+    <!-- Revive -->
+    <string name="revive_title">Continue Playing?</string>
+    <string name="revive_message">Watch an ad to get +1.5 seconds</string>
+
+    <!-- Shop -->
+    <string name="shop_title">Shop</string>
+    <string name="shop_coins">Coins: %1$d</string>
+    <string name="shop_not_enough_coins">Not enough coins!</string>
+    <string name="shop_purchase_success">Purchase successful!</string>
+    <string name="shop_daily_claimed">Daily reward claimed!</string>
+    <string name="shop_daily_already_claimed">Come back tomorrow!</string>
+
+    <!-- Items -->
+    <string name="item_add_time">+Time</string>
+    <string name="item_hint">Hint</string>
+    <string name="item_shield">Shield</string>
+    <string name="item_remove_trap">Remove Trap</string>
+    <string name="item_slow_time">Slow Time</string>
+    <string name="item_shuffle">Shuffle</string>
+
+    <string name="item_add_time_desc">Add 2.5 seconds</string>
+    <string name="item_hint_desc">Highlight safe tile</string>
+    <string name="item_shield_desc">Protect from 1 mistake</string>
+    <string name="item_remove_trap_desc">Remove 1 forbidden color</string>
+    <string name="item_slow_time_desc">Slow down timer</string>
+    <string name="item_shuffle_desc">Shuffle tile positions</string>
+
+    <!-- Packages -->
+    <string name="package_starter">Starter Pack</string>
+    <string name="package_power">Power Pack</string>
+    <string name="package_ultimate">Ultimate Pack</string>
+    <string name="package_daily">Daily Free Pack</string>
+
+    <string name="package_starter_desc">Perfect for beginners!</string>
+    <string name="package_power_desc">For advanced players</string>
+    <string name="package_ultimate_desc">Everything you need!</string>
+    <string name="package_daily_desc">Claim once per day!</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_sound">Sound</string>
+    <string name="settings_sound_desc">Game sound effects</string>
+    <string name="settings_vibration">Vibration</string>
+    <string name="settings_vibration_desc">Haptic feedback</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notifications_desc">Daily reminders</string>
+
+    <string name="settings_about">About</string>
+    <string name="settings_privacy">Privacy Policy</string>
+    <string name="settings_terms">Terms of Service</string>
+    <string name="settings_rate">Rate this app</string>
+    <string name="settings_share">Share with friends</string>
+
+    <string name="settings_reset">Reset Progress</string>
+    <string name="settings_reset_confirm">Are you sure? This cannot be undone!</string>
+
+    <!-- Errors -->
+    <string name="error_generic">Something went wrong</string>
+    <string name="error_no_connection">No internet connection</string>
+    <string name="error_ad_not_ready">Ad not ready, try again later</string>
+
+    <!-- Achievements -->
+    <string name="achievement_first_win">First Victory</string>
+    <string name="achievement_first_win_desc">Complete your first level</string>
+    <string name="achievement_speed_demon">Speed Demon</string>
+    <string name="achievement_speed_demon_desc">Complete a level in under 2 seconds</string>
+    <string name="achievement_combo_master">Combo Master</string>
+    <string name="achievement_combo_master_desc">Reach a 10x combo</string>
+
+    <!-- Tips -->
+    <string name="tip_1">💡 Look for the most different color</string>
+    <string name="tip_2">⏱️ Don\'t rush - accuracy over speed</string>
+    <string name="tip_3">🎯 Use hints on harder levels</string>
+    <string name="tip_4">🛡️ Save shields for Super Hard mode</string>
+    <string name="tip_5">🔄 Shuffle when colors are too similar</string>
+
+    <!-- Formatting -->
+    <string name="format_level">Level %1$d</string>
+    <string name="format_score">%1$d pts</string>
+    <string name="format_time">%.1f s</string>
+    <string name="format_coins">%1$d 💰</string>
+    <string name="format_combo">%1$dx Combo</string>
+    <string name="format_price">%1$d Coins</string>
+    <string name="format_discount">%1$d%% OFF</string>
+
+    <!-- Facebook -->
+    <string name="facebook_app_id">1234567890123456</string>
+    <!-- Replace with your actual Facebook Client Token -->
+    <string name="facebook_client_token">abcdef1234567890abcdef1234567890</string>
+    <!-- Auto-generated from Facebook App ID -->
+    <string name="fb_login_protocol_scheme">fb1234567890123456</string>
+    <!-- App Description -->
+    <string name="app_description">Challenge your reflexes with ColorTrap!</string>
+    <!-- Share Messages -->
+    <string name="share_score_template">🎮 I scored %1$d in ColorTrap!\nLevel: %2$d | Mode: %3$s\nCan you beat my score? 🏆</string>
+
+
+</resources>

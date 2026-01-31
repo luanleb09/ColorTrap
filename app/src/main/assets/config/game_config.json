@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "name": "ColorTrap",
+  "skins": {
+    "autoScan": true,
+    "basePath": "skins",
+    "supportedFormats": [
+      "webp",
+      "png",
+      "jpg"
+    ],
+    "defaultSkin": "color"
+  },
+  "difficulty": {
+    "EASY": {
+      "strategy": "cross-group",
+      "description": "Different color groups, easy to distinguish",
+      "sameGroupRatio": 0.0,
+      "minGroupDistance": "maximum"
+    },
+    "MEDIUM": {
+      "strategy": "mixed",
+      "description": "Mix of same and different groups",
+      "sameGroupRatio": 0.5,
+      "minGroupDistance": "medium"
+    },
+    "HARD": {
+      "strategy": "same-group-preferred",
+      "description": "Mostly same group variants",
+      "sameGroupRatio": 0.8,
+      "minGroupDistance": "low"
+    },
+    "SUPER_HARD": {
+      "strategy": "single-group",
+      "description": "All from same group (N-1 rule)",
+      "sameGroupRatio": 1.0,
+      "minGroupDistance": "minimal",
+      "nMinusOneRule": true
+    }
+  }
+}

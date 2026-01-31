@@ -1,0 +1,189 @@
+{
+  "version": "1.0",
+  "modes": {
+    "NORMAL": {
+      "levels": [
+        {
+          "range": "1-5",
+          "gridSize": 4,
+          "forbiddenCount": 1,
+          "timeLimit": 5.0
+        },
+        {
+          "range": "6-10",
+          "gridSize": 4,
+          "forbiddenCount": 1,
+          "timeLimit": 4.5
+        },
+        {
+          "range": "11-20",
+          "gridSize": 4,
+          "forbiddenCount": 2,
+          "timeLimit": 4.0
+        },
+        {
+          "range": "21-30",
+          "gridSize": 5,
+          "forbiddenCount": 2,
+          "timeLimit": 3.8
+        },
+        {
+          "range": "31-40",
+          "gridSize": 5,
+          "forbiddenCount": 3,
+          "timeLimit": 3.5
+        },
+        {
+          "range": "41-50",
+          "gridSize": 6,
+          "forbiddenCount": 4,
+          "timeLimit": 3.2
+        },
+        {
+          "range": "51-60",
+          "gridSize": 6,
+          "forbiddenCount": 5,
+          "timeLimit": 3.0
+        },
+        {
+          "range": "61-80",
+          "gridSize": 8,
+          "forbiddenCount": 7,
+          "timeLimit": 2.5
+        },
+        {
+          "range": "81+",
+          "gridSize": 10,
+          "forbiddenCount": 9,
+          "timeLimit": 2.0
+        }
+      ]
+    },
+    "HARD": {
+      "levels": [
+        {
+          "range": "1-10",
+          "gridSize": 4,
+          "forbiddenCount": 2,
+          "timeLimit": 4.0
+        },
+        {
+          "range": "11-20",
+          "gridSize": 5,
+          "forbiddenCount": 3,
+          "timeLimit": 3.5
+        },
+        {
+          "range": "21-30",
+          "gridSize": 6,
+          "forbiddenCount": 4,
+          "timeLimit": 3.0
+        },
+        {
+          "range": "31-50",
+          "gridSize": 6,
+          "forbiddenCount": 5,
+          "timeLimit": 2.8
+        },
+        {
+          "range": "51+",
+          "gridSize": 8,
+          "forbiddenCount": 7,
+          "timeLimit": 2.0
+        }
+      ]
+    },
+    "SUPER_HARD": {
+      "levels": [
+        {
+          "range": "1-10",
+          "gridSize": 5,
+          "forbiddenCount": 4,
+          "timeLimit": 3.0
+        },
+        {
+          "range": "11-20",
+          "gridSize": 6,
+          "forbiddenCount": 5,
+          "timeLimit": 2.5
+        },
+        {
+          "range": "21-40",
+          "gridSize": 8,
+          "forbiddenCount": 7,
+          "timeLimit": 2.0
+        },
+        {
+          "range": "41+",
+          "gridSize": 10,
+          "forbiddenCount": 9,
+          "timeLimit": 1.5
+        }
+      ]
+    },
+    "RELAX": {
+      "levels": [
+        {
+          "range": "1-10",
+          "gridSize": 4,
+          "forbiddenCount": 1,
+          "timeLimit": 8.0
+        },
+        {
+          "range": "11-20",
+          "gridSize": 4,
+          "forbiddenCount": 2,
+          "timeLimit": 7.0
+        },
+        {
+          "range": "21-40",
+          "gridSize": 5,
+          "forbiddenCount": 2,
+          "timeLimit": 6.5
+        },
+        {
+          "range": "41-60",
+          "gridSize": 6,
+          "forbiddenCount": 2,
+          "timeLimit": 6.0
+        },
+        {
+          "range": "61-100",
+          "gridSize": 6,
+          "forbiddenCount": 3,
+          "timeLimit": 5.5
+        },
+        {
+          "range": "101+",
+          "gridSize": 6,
+          "forbiddenCount": 2,
+          "timeLimit": 5.0
+        }
+      ],
+      "lives": 3
+    }
+  },
+  "scoring": {
+    "baseScore": 10,
+    "comboMultiplier": 5,
+    "perfectBonus": 50
+  },
+  "items": {
+    "maxPerRun": {
+      "ADD_TIME": 2,
+      "HINT": 2,
+      "SHIELD": 1,
+      "REMOVE_TRAP": 1,
+      "SLOW_TIME": 1,
+      "SHUFFLE": 1
+    },
+    "costs": {
+      "ADD_TIME": 100,
+      "HINT": 150,
+      "SHIELD": 300,
+      "REMOVE_TRAP": 250,
+      "SLOW_TIME": 200,
+      "SHUFFLE": 150
+    }
+  }
+}

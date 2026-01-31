@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "745084881938",
+    "project_id": "colortrap",
+    "storage_bucket": "colortrap.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745084881938:android:f0802e4453346245835ccb",
+        "android_client_info": {
+          "package_name": "com.colortrap.game"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg8t_VkuoyPiZTroJ1ubRx5ZZko3HXMLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
